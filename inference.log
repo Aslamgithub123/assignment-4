@@ -1,0 +1,54 @@
+2025-10-29 22:06:23,982 - ERROR - SeqTrack root not found at ./SeqTrackv2. Please clone SeqTrackv2 there.
+2025-10-29 22:08:02,592 - ERROR - SeqTrack root not found at ./SeqTrackv2. Please clone SeqTrackv2 there.
+2025-10-29 22:09:51,582 - INFO - Device: cuda
+2025-10-29 22:09:51,583 - ERROR - No sequences found for test class giraffe under ./data/lasot. Please ensure data present.
+2025-10-29 22:48:55,373 - INFO - Device: cuda
+2025-10-29 22:48:55,373 - INFO - Found 20 sequences for test class giraffe
+2025-10-29 22:48:55,373 - INFO - Listing checkpoints in HF repo: ali-almongy/seqtrack-ckpts
+2025-10-29 22:48:55,702 - INFO - Found 5 phase1 ckpts, 5 phase2 ckpts
+2025-10-29 22:49:27,538 - INFO - Local phase1 ckpts: ['./assignment_4_output/hf_ckpts_phase1/models--ali-almongy--seqtrack-ckpts/snapshots/b2e974e46a772a709c9d2ab2d92ddf923f4aba4e/checkpoint_epoch_1.pth', './assignment_4_output/hf_ckpts_phase1/models--ali-almongy--seqtrack-ckpts/snapshots/b2e974e46a772a709c9d2ab2d92ddf923f4aba4e/checkpoint_epoch_2.pth', './assignment_4_output/hf_ckpts_phase1/models--ali-almongy--seqtrack-ckpts/snapshots/b2e974e46a772a709c9d2ab2d92ddf923f4aba4e/checkpoint_epoch_3.pth', './assignment_4_output/hf_ckpts_phase1/models--ali-almongy--seqtrack-ckpts/snapshots/b2e974e46a772a709c9d2ab2d92ddf923f4aba4e/checkpoint_epoch_4.pth', './assignment_4_output/hf_ckpts_phase1/models--ali-almongy--seqtrack-ckpts/snapshots/b2e974e46a772a709c9d2ab2d92ddf923f4aba4e/checkpoint_epoch_5.pth']
+2025-10-29 22:49:27,538 - INFO - Local phase2 ckpts: ['./assignment_4_output/hf_ckpts_phase2/models--ali-almongy--seqtrack-ckpts/snapshots/b2e974e46a772a709c9d2ab2d92ddf923f4aba4e/checkpoint_epoch_1.pth', './assignment_4_output/hf_ckpts_phase2/models--ali-almongy--seqtrack-ckpts/snapshots/b2e974e46a772a709c9d2ab2d92ddf923f4aba4e/checkpoint_epoch_2.pth', './assignment_4_output/hf_ckpts_phase2/models--ali-almongy--seqtrack-ckpts/snapshots/b2e974e46a772a709c9d2ab2d92ddf923f4aba4e/checkpoint_epoch_3.pth', './assignment_4_output/hf_ckpts_phase2/models--ali-almongy--seqtrack-ckpts/snapshots/b2e974e46a772a709c9d2ab2d92ddf923f4aba4e/checkpoint_epoch_4.pth', './assignment_4_output/hf_ckpts_phase2/models--ali-almongy--seqtrack-ckpts/snapshots/b2e974e46a772a709c9d2ab2d92ddf923f4aba4e/checkpoint_epoch_5.pth']
+2025-10-29 22:49:31,337 - INFO - Loaded weights from ./assignment_4_output/hf_ckpts_phase1/models--ali-almongy--seqtrack-ckpts/snapshots/b2e974e46a772a709c9d2ab2d92ddf923f4aba4e/checkpoint_epoch_1.pth
+2025-10-29 22:49:31,768 - INFO - Prepared dataset with 39988 pairs
+2025-10-29 23:01:31,152 - INFO - Checkpoint checkpoint_epoch_1.pth -> samples 39988, ms/frame 17.99, fps 55.59, IoU nan, Prec@20px nan, AUC 0.0000
+2025-10-29 23:01:35,361 - INFO - Loaded weights from ./assignment_4_output/hf_ckpts_phase1/models--ali-almongy--seqtrack-ckpts/snapshots/b2e974e46a772a709c9d2ab2d92ddf923f4aba4e/checkpoint_epoch_2.pth
+2025-10-29 23:01:35,706 - INFO - Prepared dataset with 39988 pairs
+2025-10-29 23:13:32,090 - INFO - Checkpoint checkpoint_epoch_2.pth -> samples 39988, ms/frame 17.91, fps 55.82, IoU nan, Prec@20px nan, AUC 0.0000
+2025-10-29 23:13:35,982 - INFO - Loaded weights from ./assignment_4_output/hf_ckpts_phase1/models--ali-almongy--seqtrack-ckpts/snapshots/b2e974e46a772a709c9d2ab2d92ddf923f4aba4e/checkpoint_epoch_3.pth
+2025-10-29 23:13:36,310 - INFO - Prepared dataset with 39988 pairs
+2025-10-29 23:25:29,353 - INFO - Checkpoint checkpoint_epoch_3.pth -> samples 39988, ms/frame 17.83, fps 56.08, IoU nan, Prec@20px nan, AUC 0.0000
+2025-10-29 23:25:32,374 - INFO - Loaded weights from ./assignment_4_output/hf_ckpts_phase1/models--ali-almongy--seqtrack-ckpts/snapshots/b2e974e46a772a709c9d2ab2d92ddf923f4aba4e/checkpoint_epoch_4.pth
+2025-10-29 23:25:32,697 - INFO - Prepared dataset with 39988 pairs
+2025-10-29 23:37:16,641 - INFO - Checkpoint checkpoint_epoch_4.pth -> samples 39988, ms/frame 17.60, fps 56.81, IoU nan, Prec@20px nan, AUC 0.0000
+2025-10-29 23:37:19,808 - INFO - Loaded weights from ./assignment_4_output/hf_ckpts_phase1/models--ali-almongy--seqtrack-ckpts/snapshots/b2e974e46a772a709c9d2ab2d92ddf923f4aba4e/checkpoint_epoch_5.pth
+2025-10-29 23:37:20,137 - INFO - Prepared dataset with 39988 pairs
+2025-10-29 23:49:05,954 - INFO - Checkpoint checkpoint_epoch_5.pth -> samples 39988, ms/frame 17.65, fps 56.66, IoU nan, Prec@20px nan, AUC 0.0000
+2025-10-29 23:49:09,054 - INFO - Loaded weights from ./assignment_4_output/hf_ckpts_phase2/models--ali-almongy--seqtrack-ckpts/snapshots/b2e974e46a772a709c9d2ab2d92ddf923f4aba4e/checkpoint_epoch_1.pth
+2025-10-29 23:49:09,382 - INFO - Prepared dataset with 39988 pairs
+2025-10-30 00:00:53,924 - INFO - Checkpoint checkpoint_epoch_1.pth -> samples 39988, ms/frame 17.62, fps 56.76, IoU nan, Prec@20px nan, AUC 0.0000
+2025-10-30 00:00:57,157 - INFO - Loaded weights from ./assignment_4_output/hf_ckpts_phase2/models--ali-almongy--seqtrack-ckpts/snapshots/b2e974e46a772a709c9d2ab2d92ddf923f4aba4e/checkpoint_epoch_2.pth
+2025-10-30 00:00:57,500 - INFO - Prepared dataset with 39988 pairs
+2025-10-30 00:12:49,591 - INFO - Checkpoint checkpoint_epoch_2.pth -> samples 39988, ms/frame 17.81, fps 56.16, IoU nan, Prec@20px nan, AUC 0.0000
+2025-10-30 00:12:52,919 - INFO - Loaded weights from ./assignment_4_output/hf_ckpts_phase2/models--ali-almongy--seqtrack-ckpts/snapshots/b2e974e46a772a709c9d2ab2d92ddf923f4aba4e/checkpoint_epoch_3.pth
+2025-10-30 00:12:53,243 - INFO - Prepared dataset with 39988 pairs
+2025-10-30 00:24:50,560 - INFO - Checkpoint checkpoint_epoch_3.pth -> samples 39988, ms/frame 17.94, fps 55.75, IoU nan, Prec@20px nan, AUC 0.0000
+2025-10-30 00:24:53,877 - INFO - Loaded weights from ./assignment_4_output/hf_ckpts_phase2/models--ali-almongy--seqtrack-ckpts/snapshots/b2e974e46a772a709c9d2ab2d92ddf923f4aba4e/checkpoint_epoch_4.pth
+2025-10-30 00:24:54,445 - INFO - Prepared dataset with 39988 pairs
+2025-10-30 00:36:43,307 - INFO - Checkpoint checkpoint_epoch_4.pth -> samples 39988, ms/frame 17.73, fps 56.41, IoU nan, Prec@20px nan, AUC 0.0000
+2025-10-30 00:36:46,735 - INFO - Loaded weights from ./assignment_4_output/hf_ckpts_phase2/models--ali-almongy--seqtrack-ckpts/snapshots/b2e974e46a772a709c9d2ab2d92ddf923f4aba4e/checkpoint_epoch_5.pth
+2025-10-30 00:36:47,324 - INFO - Prepared dataset with 39988 pairs
+2025-10-30 00:48:43,291 - INFO - Checkpoint checkpoint_epoch_5.pth -> samples 39988, ms/frame 17.90, fps 55.85, IoU nan, Prec@20px nan, AUC 0.0000
+2025-10-30 00:48:43,374 - INFO - Epoch 3: IoU equal across phases? False, Precision equal? False, AUC equal? True
+2025-10-30 00:48:43,375 - INFO - Epoch 4: IoU equal across phases? False, Precision equal? False, AUC equal? True
+2025-10-30 00:48:43,375 - INFO - Epoch 5: IoU equal across phases? False, Precision equal? False, AUC equal? True
+2025-10-30 00:48:43,375 - INFO - Epoch 6: IoU equal across phases? False, Precision equal? False, AUC equal? False
+2025-10-30 00:48:43,375 - INFO - Epoch 7: IoU equal across phases? False, Precision equal? False, AUC equal? False
+2025-10-30 00:48:43,375 - INFO - Epoch 8: IoU equal across phases? False, Precision equal? False, AUC equal? False
+2025-10-30 00:48:43,375 - INFO - Epoch 9: IoU equal across phases? False, Precision equal? False, AUC equal? False
+2025-10-30 00:48:43,375 - INFO - Epoch 10: IoU equal across phases? False, Precision equal? False, AUC equal? False
+2025-10-30 00:48:44,528 - INFO - Saved DOCX: ./assignment_4_output/assignment_4.docx
+2025-10-30 00:48:44,531 - INFO - Assignment 4 automation complete. Outputs:
+2025-10-30 00:48:44,531 - INFO - - DOCX: ./assignment_4_output/assignment_4.docx
+2025-10-30 00:48:44,531 - INFO - - Inference log: ./assignment_4_output/inference.log
+2025-10-30 00:48:44,531 - INFO - - Tables CSV: ./assignment_4_output/tables.csv
+2025-10-30 00:48:44,531 - INFO - - Graphs: ./assignment_4_output/graphs
